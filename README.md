@@ -19,8 +19,8 @@ The dataset that I'll be using is the MNIST dataset which comes with the Scikit-
 - That's when data augmentation comes in.
 
 ### Using Data Augmentation
-- The switch_colors() function interchanges the white and black pixels. The images come as digits written in black on a white paper but what if it's rather a white text on black paper? Switching the colors in the data used to train model accounts for more posibilities. Hence, a better model
-- The add_noise() function adds noise the the images. The real life images of digits would not be that clean. It's best to train the model on that sort of image alse.
+- The `switch_colors()` function interchanges the white and black pixels. The images come as digits written in black on a white paper but what if it's rather a white text on black paper? Switching the colors in the data used to train model accounts for more posibilities. Hence, a better model
+- The `add_noise()` function adds noise the the images. The real life images of digits would not be that clean. It's best to train the model on that sort of image alse.
 - These functions would be used to create different variations of the 60,000 training examples.
 - The final dataset that'd be used to train the models would be a combination of all these variations.
 

@@ -7,6 +7,12 @@ This current model is really bad and doesn't do all the work.
 
 In this repository, I'm going to try and create an improved version of this model and keep improving it using my skills on supervised machine learning algorithms.
 
+## Current Status of this Project:
+Tested the first version of the current model on real images and it was able to predict 5/10 test images correctly.
+Check file named [model_testing_on_images](./model/model_testing_on_images.ipynb) for more information
+
+Progress...
+
 ## The Dataset
 The dataset that I'll be using is the MNIST dataset which comes with the Scikit-Learn package.
 
@@ -24,6 +30,8 @@ The dataset that I'll be using is the MNIST dataset which comes with the Scikit-
 - The `make_shift()` function helps shift the writings to different locations of the image. The digits would not always be in the middle of the image.
 - These functions would be used to create different variations of the 60,000 training examples.
 - The final dataset that'd be used to train the models would be a combination of all these variations.
+
+Check the file named [model_creation](./model/model_creation.ipynb) for more information on how I'm really doing the building
 
 ## Tools and Technologies
 - [Scikit-Learn](https://scikit-learn.org/)

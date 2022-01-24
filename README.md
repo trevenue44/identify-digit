@@ -8,7 +8,7 @@ This current model is really bad and doesn't do all the work.
 In this repository, I'm going to try and create an improved version of this model and keep improving it using my skills on supervised machine learning algorithms.
 
 ## Current Status of this Project:
-Tested the first version of the current model on real images and it was able to predict 5/10 test images correctly.
+Tested the second trained model (an SVC) on real images and it was also able to predict 5/10 test images correctly. (I'm starting to think it has something to do with my test images.)
 Check file named [model_testing_on_images](./model/model_testing_on_images.ipynb) for more information
 
 Progress...

@@ -8,7 +8,8 @@ This current model is really bad and doesn't do all the work.
 In this repository, I'm going to try and create an improved version of this model and keep improving it using my skills on supervised machine learning algorithms.
 
 ## Current Status of this Project:
-Tested the second trained model (an SVC) on real images and it was also able to predict 5/10 test images correctly. (I'm starting to think it has something to do with my test images.)
+Trained a new `SVC()` with pretty good precision, recall and f1 scores of around 0.96. But it still doesn't work well on the real world test images. Maybe the MNIST_784 dataset is not realistic enough to work on real world problems.
+
 Check file named [model_testing_on_images](./model/model_testing_on_images.ipynb) for more information
 
 Progress...
